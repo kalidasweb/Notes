@@ -1,7 +1,11 @@
 SFA Installation
 ===================================
 ## Stack: 
-     LEMP
+LEMP
+
+## What is a Lemp stack?
+The LEMP stack (Linux, NGINX, MySQLor MariaDB, PHP) is a solid web solution stack for building and hosting web applications, such as WordPress, Drupal, and many others.
+
 ## Requirements:
 * PHP 7.0^
 * PHP extensions (bcmath,mbstring,xml,zip,gd,mysql,redis,curl)
@@ -15,6 +19,8 @@ SFA Installation
 * Laravel Mix
 * Laravel Echo Server (For WebSocket)
 * Nginx
+
+
 ## Env Config: 
 
 ### Update Machine:
@@ -25,7 +31,7 @@ sudo apt-get install software-properties-common
 ```
 ### Install PHP: 
 ```bash
-      sudo apt-get install php-fpm 
+sudo apt-get install php-fpm 
 ```
 
 ### Install PHP Ext:
@@ -90,11 +96,11 @@ now .env file will be created change the paths of Sql,then Change the database c
 ## Run Code:
 Terminal Tab1:
 ```bash
- laravel-echo-server start
+laravel-echo-server start
  ```
 Terminal Tab2:
 ```bash
- php artisan serve
+php artisan serve
  ```
 
 ## now our ship ready
